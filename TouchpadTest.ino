@@ -8,7 +8,7 @@
 Adafruit_MPR121 cap = Adafruit_MPR121();
 
 // Keypad mapping for 3x4 layout (adjust if your keypad differs)
-const char keyMap[12] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '*', '0', '#'};
+const char keyMap[12] = {'0','1', '2', '3', '4', '5', '6', '7', '8', '9', '*', '#'};
 
 void dump_regs() {
   Serial.println("========================================");
